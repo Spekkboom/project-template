@@ -4,3 +4,6 @@ def function():
 
 def function_2():
     print("This function also works")
+
+if __name__ == "__main__":
+    print("This works")
