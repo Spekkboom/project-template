@@ -6,6 +6,8 @@ site_author: Your Name
 repo_url: https://github.com/yourusername/project-template
 repo_name: project-template
 
+docs_dir: docs
+
 theme:
   name: material
   palette:
