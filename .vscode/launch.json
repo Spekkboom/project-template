@@ -1,13 +1,17 @@
 {
     "version": "0.2.0",
     "configurations": [
-    
         {
-            "name": "Python Debugger: debug.py",
+            "name": "Python: debug.py",
             "type": "debugpy",
             "request": "launch",
             "program": "${workspaceFolder}/debug/debug.py",
-            "console": "integratedTerminal"
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}"
+            },
+            "justMyCode": true
         }
     ]
 }
